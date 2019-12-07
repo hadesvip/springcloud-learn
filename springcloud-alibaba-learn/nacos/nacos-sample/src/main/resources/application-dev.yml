@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacos-sample
+server:
+  port: 9090
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: 94314ccc-49eb-47c2-a0e7-8f2dab8e9f90
+
