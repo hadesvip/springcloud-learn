@@ -1,0 +1,24 @@
+server:
+  port: 9090
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: user_route
+#          uri: http://localhost:9090
+#          predicates:
+#            - Path=/user/getUser
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

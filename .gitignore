@@ -1,3 +1,2 @@
 .idea
-springcloud-learn.iml
-eureka-learn/eureka-learn.iml
+*.iml
